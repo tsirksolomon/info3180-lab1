@@ -3,9 +3,11 @@
     <head>
         <meta charset="UTF-8">
 	<title>My Website - About</title>
+	<link rel"stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     </head>
     <body>
         <h1>Christina Solomon</h1>
+	<img src = "{{ url_for('static', filename='cabbylaugh.gif') }}" />
         <p>Christina Solomon is a Computer Science student at The University of the West Indies. Their interests include Computer Science, illustration, cartoons, and webcomics. They have the tendency to end text missives with commas instead of periods, and capitalise the first letter of the first word following any comma.</p>
     </body>
 </html>
